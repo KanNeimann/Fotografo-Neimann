@@ -1,0 +1,23 @@
+{
+  "name": "fotografo-neimann",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass --watch scss/styles.scss css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KanNeimann/Fotografo-Neimann.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KanNeimann/Fotografo-Neimann/issues"
+  },
+  "homepage": "https://github.com/KanNeimann/Fotografo-Neimann#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.2"
+  }
+}

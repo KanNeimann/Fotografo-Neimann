@@ -1,0 +1,13 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.noche-azul:before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+}
+
+.fotografo {
+  line-height: 350px;
+  border-radius: 350px;
+  height: 70%;
+}
