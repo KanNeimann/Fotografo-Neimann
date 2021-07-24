@@ -10779,12 +10779,51 @@ textarea.form-control-lg {
   filter: invert(100%) sepia(0%) saturate(7495%) hue-rotate(210deg) brightness(107%) contrast(102%);
 }
 
+.filter-green {
+  filter: invert(37%) sepia(92%) saturate(416%) hue-rotate(100deg) brightness(92%) contrast(84%);
+}
+
 .subtitulo-h4 {
   width: 20vw;
 }
 
 .texto {
   width: 13vw;
+}
+
+.color-2 {
+  height: 100vh;
+  background-color: #fad7bd;
+}
+
+.caja {
+  border: 2px solid green;
+  border-radius: 15px;
+  background-color: white;
+  padding: 2vh 1vw;
+  width: 25%;
+  margin: 0 1vw;
+}
+
+.oferta {
+  background-color: rgba(221, 255, 221, 0.6);
+}
+
+.boton {
+  background-color: white;
+  border: 2px green solid;
+  border-radius: 25px;
+  padding: 5px 10px;
+}
+.boton--oferta {
+  background-color: #274127;
+  color: white;
+  border: solid #274127;
+}
+
+.caja-inf {
+  padding-top: 2vh;
+  border-top: 2px green solid;
 }
 
 /*# sourceMappingURL=styles.css.map */
