@@ -10758,4 +10758,33 @@ textarea.form-control-lg {
   height: 70%;
 }
 
+.fotografo2 {
+  line-height: 350px;
+  border-radius: 350px;
+  height: 80%;
+  box-shadow: 8px -8px 0px 0px #042447, 16px -16px 0px 0px #042850;
+}
+
+.color {
+  height: 130vh;
+  background-color: #031d38;
+}
+
+.img {
+  max-width: 4vw;
+  min-width: 3vw !important;
+}
+
+.filter-white {
+  filter: invert(100%) sepia(0%) saturate(7495%) hue-rotate(210deg) brightness(107%) contrast(102%);
+}
+
+.subtitulo-h4 {
+  width: 20vw;
+}
+
+.texto {
+  width: 13vw;
+}
+
 /*# sourceMappingURL=styles.css.map */
