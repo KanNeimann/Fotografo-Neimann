@@ -1,10 +1,23 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-.noche-azul:before {
-  content: "";
-  background-color: rgba(0, 0, 0, 0.6);
-  position: absolute;
+.noche-azul {
+  background-position: center;
+  background-size: cover;
 }
+/* .noche-azul:hover {
+  animation-name: zoomIn;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  transition-timing-function: ease-in-out;
+}
+@keyframes zoomIn {
+  from {
+    background-size: 100% 100%;
+  }
+  to {
+    background-size: 150% 150%;
+  }
+} */
 
 .fotografo {
   line-height: 350px;
@@ -44,31 +57,47 @@
 }
 .color-2 {
   height: 100vh;
-  background-color: rgb(250, 215, 189);
+  background-color: rgb(103, 190, 209);
 }
 .caja {
-  border: 2px solid green;
+  border: 2px solid rgb(76, 160, 183);
   border-radius: 15px;
   background-color: white;
   padding: 2vh 1vw;
   width: 25%;
   margin: 0 1vw;
-}
-.oferta {
-  background-color: rgba(221, 255, 221, 0.6);
+  &:hover {
+    background-color: rgba(229, 239, 250, 0.966);
+  }
 }
 .boton {
   background-color: white;
-  border: 2px green solid;
+  border: 2px rgb(76, 160, 183) solid;
   border-radius: 25px;
   padding: 5px 10px;
-  &--oferta {
-    background-color: rgb(39, 65, 39);
+  &:hover {
+    background-color: rgb(23, 82, 110);
     color: white;
-    border: solid rgb(39, 65, 39);
+    border: solid rgb(23, 82, 110);
   }
 }
 .caja-inf {
   padding-top: 2vh;
-  border-top: 2px green solid;
+  border-top: 2px rgb(76, 160, 183) solid;
+}
+footer {
+  background-color: rgb(24, 68, 116);
+}
+.item-lista {
+  list-style: none;
+}
+footer img {
+  height: 5vh;
+}
+.rounded {
+  border-radius: 50% !important;
+  margin-right: 5vh;
+}
+.texto-2 {
+  width: 25vw;
 }

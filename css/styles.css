@@ -10746,12 +10746,25 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.noche-azul:before {
-  content: "";
-  background-color: rgba(0, 0, 0, 0.6);
-  position: absolute;
+.noche-azul {
+  background-position: center;
+  background-size: cover;
 }
 
+/* .noche-azul:hover {
+  animation-name: zoomIn;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  transition-timing-function: ease-in-out;
+}
+@keyframes zoomIn {
+  from {
+    background-size: 100% 100%;
+  }
+  to {
+    background-size: 150% 150%;
+  }
+} */
 .fotografo {
   line-height: 350px;
   border-radius: 350px;
@@ -10793,37 +10806,57 @@ textarea.form-control-lg {
 
 .color-2 {
   height: 100vh;
-  background-color: #fad7bd;
+  background-color: #67bed1;
 }
 
 .caja {
-  border: 2px solid green;
+  border: 2px solid #4ca0b7;
   border-radius: 15px;
   background-color: white;
   padding: 2vh 1vw;
   width: 25%;
   margin: 0 1vw;
 }
-
-.oferta {
-  background-color: rgba(221, 255, 221, 0.6);
+.caja:hover {
+  background-color: rgba(229, 239, 250, 0.966);
 }
 
 .boton {
   background-color: white;
-  border: 2px green solid;
+  border: 2px #4ca0b7 solid;
   border-radius: 25px;
   padding: 5px 10px;
 }
-.boton--oferta {
-  background-color: #274127;
+.boton:hover {
+  background-color: #17526e;
   color: white;
-  border: solid #274127;
+  border: solid #17526e;
 }
 
 .caja-inf {
   padding-top: 2vh;
-  border-top: 2px green solid;
+  border-top: 2px #4ca0b7 solid;
+}
+
+footer {
+  background-color: #184474;
+}
+
+.item-lista {
+  list-style: none;
+}
+
+footer img {
+  height: 5vh;
+}
+
+.rounded {
+  border-radius: 50% !important;
+  margin-right: 5vh;
+}
+
+.texto-2 {
+  width: 25vw;
 }
 
 /*# sourceMappingURL=styles.css.map */
